@@ -1,0 +1,28 @@
+.arrow {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 40px;
+    cursor: pointer;
+}
+.book {
+    width: 350px;
+    margin-top: 100px;
+}
+.title {
+    margin-top: 100px;
+}
+.stars {
+    width: 150px;
+    margin-top: -5px;
+}
+.review p {
+    margin-left: -250px;
+    font-size: 22px;
+    font-family: lao;
+}
+.bottomp {
+    margin-left: 0px !important;
+}
+#footer {
+    margin-top: 200px;
+}

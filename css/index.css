@@ -1,0 +1,31 @@
+/* body */
+
+.coffee {
+    width: 100px;
+    margin-top: 150px !important;
+}
+.center {
+    display: block;
+    margin: auto;
+}
+.welcome {
+    font-family: lao;
+    text-align: center;
+    margin-top: 10px !important;
+    font-size: 50px;
+}
+.intro {
+    font-family: Helvetica;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 10px !important;
+    margin-bottom: 50px;
+}
+.box {
+    width: 300px;
+}
+#footer {
+    bottom: 0;
+}
