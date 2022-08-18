@@ -26,3 +26,48 @@
 #footer {
     margin-top: 200px;
 }
+
+
+@media all and (max-width: 1400px) {
+    .review p {
+        font-size: 20px;
+        margin-left: -150px;
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .review p {
+        margin-left: -75px;
+        font-size: 18px;
+    }
+    .arrow {
+        width: 30px;
+    }
+}
+
+@media all and (max-width: 1000px) {
+    .book {
+        width: 350px;
+    }
+    .review p {
+        font-size: 16px;
+        margin-left: 0px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .book {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .review p {
+        font-size: 20px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .review p {
+        font-size: 16px;
+    }
+}
