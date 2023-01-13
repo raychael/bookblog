@@ -8,6 +8,12 @@
 .container1 {
     margin-top: 50px;
 }
+.dropdown-item {
+    background-color: #7E311B !important;
+}
+.yeardrop {
+    color: white !important;
+}
 .image {
     position: relative;
     width: 250px;
@@ -43,6 +49,7 @@
 }
 .star {
     width: 30px;
+    margin-top: 50px;
 }
 .row1 {
     margin-bottom: 50px;
@@ -50,9 +57,10 @@
 .btn {
     background-color: #7E311B !important;
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 .top_text {
-    text-align: center;
+    text-align: center; 
     margin-top: 50px;
 }
 .btn {
