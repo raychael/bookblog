@@ -24,7 +24,7 @@
     margin-bottom: 50px;
 }
 .box {
-    width: 300px;
+    width: 400px;
 }
 #footer {
     bottom: 0;
@@ -36,23 +36,23 @@
         margin-right: 300px;
     }
     .box {
-        width: 220px;
+        width: 350px;
     }
 }
 
 @media all and (max-width: 1200px) {
     .box {
-        width: 200px;
+        width: 275px;
     }
 }
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 999px) {
     .intro {
         margin-left: 100px;
         margin-right: 100px;
     }
     .box {
-        width: 350px;
+        width: 275px;
         margin-bottom: 20px;
         display: block;
         margin-left: auto;
@@ -60,5 +60,11 @@
     }
     .last {
         margin-bottom: 300px;
+    }
+}
+
+@media all and (max-width: 999px) {
+    .box {
+        width: 500px
     }
 }
