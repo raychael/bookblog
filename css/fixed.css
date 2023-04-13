@@ -45,7 +45,7 @@ footer {
 }
 #page-container {
     position: relative;
-    min-height: 120vh;
+    min-height: 100vh;
 }
 #footer {
     position: absolute;
