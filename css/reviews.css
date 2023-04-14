@@ -1,22 +1,31 @@
-.book {
-    width: 250px !important;
-}
-.image__description {
-    margin-left: 15px;
-    margin-right: 15px;
-}
+
 .container1 {
     margin-top: 50px;
 }
-.dropdown-item {
-    background-color: #7E311B !important;
+
+/* star rating */
+
+.starrating {
+    margin-bottom: 50px;
 }
-.yeardrop {
-    color: white !important;
+.star {
+    width: 30px;
+    margin-top: 50px;
+}
+
+
+/* individual books */
+
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
 }
 .image {
     position: relative;
     width: 250px;
+    margin-top: 50px;
 }
 .image__img {
     display: block;
@@ -37,45 +46,28 @@
     justify-content: center;
     opacity: 0;
 }
-.image__overlay:hover {
-    opacity: 1;
-}
-.image__description {
-    font-size: 1.25em;
+.row1 {
+    margin-bottom: 50px;
 }
 .stars {
     width: 200px;
     margin-left: 25px;
 }
-.star {
-    width: 30px;
-    margin-top: 50px;
+
+/* hovers */
+
+.image__description {
+    margin-left: 15px;
+    margin-right: 15px;
 }
-.starrating {
-    margin-bottom: 50px;
+.image__overlay:hover {
+    opacity: 1;
 }
-.row1 {
-    margin-bottom: 50px;
+.image__description {
+    font-size: 20px;
 }
-.btn {
-    background-color: #7E311B !important;
-    margin-bottom: 50px;
-    margin-top: 50px;
-}
-.top_text {
-    text-align: center; 
-    margin-top: 50px;
-}
-.btn {
-    border-radius: 10% !important;
-    margin-bottom: 50px;
-}
-.center-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
-}
+
+
 
 @media all and (max-width: 1400px) {
     .star {
@@ -87,6 +79,9 @@
     .image {
         width: 200px;
     }
+    p.image__description {
+        font-size: 16px !important;
+    }
     .stars {
         width: 150px;
     }
@@ -95,9 +90,15 @@
     }
 }
 
-@media all and (max-width: 990px) {
+@media all and (max-width: 991px) {
     .image {
         width: 300px;
+    }
+    .na {
+        display: none;
+    }
+    p.image__description {
+        font-size: 24px !important;
     }
     .stars {
         width: 250px;
@@ -105,15 +106,15 @@
     .star {
         width: 30px;
     }
-    .na {
-        display: none;
-    }
     .two {
         margin-bottom: 50px;
     }
 }
 
 @media all and (max-width: 770px) {
+    p.image__description {
+        font-size: 16px !important;
+    }
     .image {
         width: 200px;
     }

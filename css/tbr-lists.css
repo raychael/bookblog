@@ -1,3 +1,4 @@
+
 h2 {
     font-family: 'Cedarville Cursive', cursive;
     text-align: center;
@@ -7,14 +8,52 @@ h2 {
     margin-bottom: 50px;
     font-size: 60px;;
 }
-.col-4 img {
-    height: 400px;
-}
-.col-8 img {
-    height: 400px;
-}
+
 .col img {
-    margin-top: 50px;
+    margin-top: 0px;
     margin-bottom: 100px;
-    height: 410px;
+    height: 375px;
+}
+
+.col1 img {
+    height: 382px;
+}
+
+@media all and (max-width: 1400px) {
+    .col img {
+        height: 325px;
+    }
+    .col1 img {
+        height: 330px;
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .col img {
+        height: 270px;
+    }
+    .col1 img {
+        height: 277px;
+        margin-top: -50px !important;
+    }
+}
+
+@media all and (max-width: 992px) {
+    .col img {
+        height: 207px;
+    }
+    .col1 img {
+        height: 206px;
+        margin-top: -70px !important;
+    }
+}
+
+@media all and (max-width: 763px) {
+    .col img {
+        height: 150px;
+    }
+    .col1 img {
+        height: 153px;
+        margin-top: -70px !important;
+    }
 }

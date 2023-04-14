@@ -16,7 +16,7 @@ h2 {
     width: 400px;
     margin-left: 100px;
 }
-p {
+.aboutmep {
     font-family: lao;
     font-size: 25px;
     margin-right: 100px;
@@ -25,10 +25,23 @@ p {
     bottom: 0;
 }
 
-@media all and (max-width: 1200px) {
-    p {
-        font-size: 18px;
+@media all and (max-width: 1400px) {
+    .pic {
+        width: 350px;
     }
+}
+
+@media all and (max-width: 1200px) {
+    .aboutmep {
+        font-size: 22px;
+        margin-left: 20px;
+    }
+    .pic {
+        width: 300px;
+    }
+   .f-f-icon {
+       margin-left: 20px;
+   }
 }
 
 @media all and (max-width: 1000px) {
@@ -40,8 +53,17 @@ p {
     }
 }
 
+@media all and (max-width: 991px) {
+    .aboutmep {
+        font-size: 20px !important;
+    }
+    .pic {
+        width: 300px;
+    }
+}
+
 @media all and (max-width: 780px) {
-    p {
+    .aboutmep {
         margin-left: 80px;
         margin-right: 80px;
     }

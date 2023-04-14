@@ -6,10 +6,15 @@
 }
 .book {
     width: 350px;
-    margin-top: 100px;
+    margin-top: 150px;
 }
+#page-container1 {
+    min-height: 75vh;
+}
+
+/* text review */
 .title {
-    margin-top: 100px;
+    margin-top: 150px;
 }
 .stars {
     width: 150px;
@@ -23,9 +28,6 @@
 .bottomp {
     margin-left: 0px !important;
 }
-#footer {
-    margin-top: 200px;
-}
 
 
 @media all and (max-width: 1400px) {
@@ -36,38 +38,45 @@
 }
 
 @media all and (max-width: 1200px) {
-    .review p {
-        margin-left: -75px;
-        font-size: 18px;
-    }
     .arrow {
         width: 30px;
+    }
+    .book {
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+    .review p {
+        margin-left: -75px;
+        font-size: 17px !important;
+    }
+    .title {
+        margin-top: 50px;
+    }
+    .bottommobile {
+        margin-top: -80px;
     }
 }
 
 @media all and (max-width: 1000px) {
     .book {
-        width: 350px;
-    }
-    .review p {
-        font-size: 16px;
-        margin-left: 0px;
-    }
-}
-
-@media all and (max-width: 767px) {
-    .book {
+        width: 400px;
         display: block;
         margin-left: auto;
         margin-right: auto;
+        margin-top: 0px;
+        margin-bottom: 0px !important;
     }
     .review p {
-        font-size: 20px;
+        font-size: 25px !important;
+        margin-left: 0px !important;
     }
-}
-
-@media all and (max-width: 600px) {
-    .review p {
-        font-size: 16px;
+    .stars {
+        width: 110px;
+    }
+    .row {
+        flex-direction: column !important;
+    }
+    .bottommobile {
+        margin-top: 0px;
     }
 }

@@ -43,12 +43,66 @@ footer {
     width: 50px;
     margin-right: 10px;
 }
-#page-container {
-    position: relative;
-    min-height: 100vh;
-}
 #footer {
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 300px;
+}
+.f-heading {
+    margin-bottom: 20px !important;
+}
+#page-container {
+    min-height: 80vh;
+}
+.navbar {
+    position: relative;
+}
+
+@media all and (max-width: 1400px) {
+    .f-content {
+        margin-right: 0px;
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .f-icon {
+        width: 30px;
+    }
+    .f-content {
+        font-size: 14px;
+    }
+}
+
+@media all and (max-width: 1000px) {
+    .navbar {
+        height: 100px !important;
+    }
+    .navbar-toggler-icon {
+        height: 50px !important;
+        width: 50px !important;
+    }
+    .container-fluid {
+        background-color: #7E311B;
+    }
+    .f-content {
+        font-size: 14px;
+        margin-right: 10px;
+    }
+    .f-icon {
+        margin-bottom: 10px;
+    }
+    #footer {
+        height: 700px;
+    }
+    .f-heading {
+        text-align: center;
+        margin-bottom: 30px;;
+    }
+    .f-content {
+        text-align: center;
+    }
+    .f-icons {
+        display: flex;
+        justify-content: center;
+    }
 }
