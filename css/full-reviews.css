@@ -67,7 +67,7 @@
         margin-bottom: 0px !important;
     }
     .review p {
-        font-size: 25px !important;
+        font-size: 35px !important;
         margin-left: 0px !important;
     }
     .stars {
@@ -78,5 +78,11 @@
     }
     .bottommobile {
         margin-top: 0px;
+    }
+}
+
+@media all and (max-width: 400px) {
+    .review p {
+        font-size: 45px !important;
     }
 }

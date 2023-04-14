@@ -5,23 +5,19 @@
 
 /* star rating */
 
-.starrating {
-    margin-bottom: 50px;
+.rowstar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .star {
-    width: 30px;
+    width: 35px;
     margin-top: 50px;
 }
 
 
 /* individual books */
 
-.center-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
-}
 .image {
     position: relative;
     width: 250px;
@@ -67,14 +63,6 @@
     font-size: 20px;
 }
 
-
-
-@media all and (max-width: 1400px) {
-    .star {
-        width: 25px;
-    }
-}
-
 @media all and (max-width: 1200px) {
     .image {
         width: 200px;
@@ -86,49 +74,37 @@
         width: 150px;
     }
     .star {
-        width: 22px;
+        width: 30px;
     }
 }
 
 @media all and (max-width: 991px) {
     .image {
-        width: 300px;
-    }
-    .na {
-        display: none;
+        width: 500px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
     p.image__description {
-        font-size: 24px !important;
+        font-size: 42px !important;
     }
     .stars {
-        width: 250px;
+        width: 350px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
     .star {
-        width: 30px;
+        width: 40px;
     }
     .two {
         margin-bottom: 50px;
     }
 }
 
-@media all and (max-width: 770px) {
-    p.image__description {
-        font-size: 16px !important;
-    }
+@media all and (max-width: 600px) {
     .image {
-        width: 200px;
-    }
-    .stars {
-        width: 150px;
-    }
-    .star {
-        width: 25px;
-    }
-}
-
-@media all and (max-width: 450px) {
-    .image {
-        width: 300px;
+        width: 800px !important;
         display: block;
         margin-left: auto;
         margin-right: auto;

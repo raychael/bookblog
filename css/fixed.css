@@ -75,7 +75,7 @@ footer {
 
 @media all and (max-width: 1000px) {
     .navbar {
-        height: 100px !important;
+        height: 150px !important;
     }
     .navbar-toggler-icon {
         height: 50px !important;
@@ -104,5 +104,11 @@ footer {
     .f-icons {
         display: flex;
         justify-content: center;
+    }
+}
+
+@media all and (max-width: 700px) {
+    .navbar {
+        height: 125px !important;
     }
 }
