@@ -20,6 +20,10 @@ body {
     margin-bottom: 20px !important;
     margin-top: 20px !important;
 }
+.exitarrow {
+    width: 12px;
+    margin-bottom: 3px;
+}
 
 /* footer */
 footer {
@@ -52,7 +56,7 @@ footer {
     margin-bottom: 20px !important;
 }
 #page-container {
-    min-height: 80vh;
+    min-height: 100vh;
 }
 .navbar {
     position: relative;
@@ -73,13 +77,17 @@ footer {
     }
 }
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 991px) {
     .navbar {
         height: 150px !important;
     }
     .navbar-toggler-icon {
-        height: 50px !important;
-        width: 50px !important;
+        height: 100px !important;
+        width: 100px !important;
+    }
+    .nav-link {
+        font-size: 50px;
+        margin-top: 50px;
     }
     .container-fluid {
         background-color: #7E311B;

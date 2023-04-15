@@ -80,22 +80,22 @@
 
 @media all and (max-width: 991px) {
     .image {
-        width: 500px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+        width: 300px;
     }
     p.image__description {
         font-size: 42px !important;
     }
+    .image-overlay {
+        display: none;
+    }
     .stars {
-        width: 350px;
+        width: 200px;
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
     .star {
-        width: 40px;
+        width: 50px;
     }
     .two {
         margin-bottom: 50px;

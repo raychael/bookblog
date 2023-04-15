@@ -51,20 +51,19 @@
     }
 }
 
-@media all and (max-width: 1000px) {
-    .bottom {
-        margin-bottom: 400px !important;
-    }
-}
-
 @media all and (max-width: 999px) {
+    .coffee {
+        width: 200px;
+        margin-top: 50px !important;
+    }
     .intro {
         margin-left: 100px;
         margin-right: 100px;
+        font-size: 30px;;
     }
     .box {
-        width: 275px;
-        margin-bottom: 20px;
+        width: 700px !important;
+        margin-bottom: 50px;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -72,10 +71,13 @@
     .last {
         margin-bottom: 300px;
     }
+    .welcome {
+        font-size: 100px !important;
+    }
 }
 
-@media all and (max-width: 999px) {
+@media all and (max-width: 250px) {
     .box {
-        width: 500px
+        width: 500px !important;
     }
 }
