@@ -5,55 +5,33 @@ h2 {
 }
 .col h2 {
     margin-top: 100px;
-    margin-bottom: 50px;
-    font-size: 60px;;
+    margin-bottom: 100px;
+    font-size: 70px;;
 }
 
 .col img {
     margin-top: 0px;
-    margin-bottom: 100px;
-    height: 375px;
-}
-
-.col1 img {
-    height: 382px;
+    height: 450px;
 }
 
 @media all and (max-width: 1400px) {
     .col img {
-        height: 325px;
-    }
-    .col1 img {
-        height: 330px;
+        height: 400px;
     }
 }
 
 @media all and (max-width: 1200px) {
     .col img {
-        height: 270px;
-    }
-    .col1 img {
-        height: 277px;
-        margin-top: -50px !important;
+        height: 350px;
     }
 }
 
 @media all and (max-width: 992px) {
     .col img {
-        height: 207px;
-    }
-    .col1 img {
-        height: 206px;
-        margin-top: -70px !important;
-    }
-}
-
-@media all and (max-width: 763px) {
-    .col img {
-        height: 150px;
-    }
-    .col1 img {
-        height: 153px;
-        margin-top: -70px !important;
+        height: 600px;
+        margin-bottom: 50px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 }

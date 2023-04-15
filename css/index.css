@@ -2,7 +2,7 @@
 /* coffee logo */
 
 .coffee {
-    width: 100px;
+    width: 110px;
     margin-top: 150px !important;
 }
 .center {
@@ -13,15 +13,15 @@
 /* welcome and message */
 
 .welcome {
-    font-family: lao;
+    font-family: 'Cedarville Cursive', cursive;
     text-align: center;
     margin-top: 10px !important;
-    font-size: 50px;
+    font-size: 80px;
 }
 .intro {
-    font-family: Helvetica;
+    font-family: lao;
     text-align: center;
-    font-size: 18px;
+    font-size: 22px;
     margin-left: 500px;
     margin-right: 500px;
     margin-top: 10px !important;
