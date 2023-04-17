@@ -22,6 +22,9 @@
     position: relative;
     width: 250px;
     margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .image__img {
     display: block;
@@ -42,12 +45,14 @@
     justify-content: center;
     opacity: 0;
 }
-.row1 {
-    margin-bottom: 50px;
-}
 .stars {
-    width: 200px;
-    margin-left: 25px;
+    width: 200px !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.lastrow {
+    margin-bottom: 50px;;
 }
 
 /* hovers */
@@ -65,57 +70,33 @@
 
 @media all and (max-width: 1200px) {
     .image {
-        width: 200px;
+        width: 400px;
     }
     p.image__description {
-        font-size: 16px !important;
+        font-size: 30px !important;
     }
     .stars {
-        width: 150px;
+        width: 300px !important;
     }
     .star {
-        width: 30px;
+        width: 50px !important;
     }
 }
 
 @media all and (max-width: 991px) {
     .image {
-        width: 300px;
+        width: 450px;
     }
     p.image__description {
-        font-size: 42px !important;
-    }
-    .image-overlay {
-        display: none;
+        font-size: 38px !important;
     }
     .stars {
-        width: 200px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+        width: 300px !important;
     }
     .star {
         width: 50px;
     }
-    .two {
-        margin-bottom: 50px;
-    }
-}
-
-@media all and (max-width: 600px) {
-    .image {
-        width: 800px !important;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .stars {
-        width: 250px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .star {
-        width: 25px;
+    .bookmargin {
+        margin-bottom: 50px !important;
     }
 }

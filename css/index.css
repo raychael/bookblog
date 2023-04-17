@@ -64,20 +64,11 @@
     .box {
         width: 700px !important;
         margin-bottom: 50px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
     }
     .last {
         margin-bottom: 300px;
     }
     .welcome {
         font-size: 100px !important;
-    }
-}
-
-@media all and (max-width: 250px) {
-    .box {
-        width: 500px !important;
     }
 }

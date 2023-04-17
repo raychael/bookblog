@@ -28,7 +28,7 @@ h2 {
 
 @media all and (max-width: 992px) {
     .col img {
-        height: 600px;
+        height: 800px;
         margin-bottom: 50px;
         display: block;
         margin-left: auto;
