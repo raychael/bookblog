@@ -90,23 +90,26 @@ footer {
     .container-fluid {
         background-color: #7E311B;
     }
+    .f-heading {
+        margin-top: 30px;
+    }
     .f-content {
-        font-size: 14px;
-        margin-right: 10px;
+        font-size: 20px;
+        margin-right: 0px;
         text-align: center;
     }
     .f-icon {
-        margin-bottom: 10px;
+        margin-bottom: 40px !important;
     }
     .f-icons {
         display: flex;
         justify-content: center;
     }
     #footer {
-        height: 300px;
+        height: 900px;
     }
     .f-heading {
         text-align: center;
-        margin-bottom: 30px;
+        margin-bottom: 50px;
     }
 }
