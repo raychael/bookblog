@@ -44,7 +44,7 @@
 
 @media all and (max-width: 1200px) {
     .arrow {
-        width: 30px;
+        width: 40px;
     }
     .book {
         margin-top: 50px;
@@ -72,22 +72,17 @@
         margin-bottom: 0px !important;
     }
     .review p {
-        font-size: 35px !important;
+        font-size: 45px !important;
         margin-left: 0px !important;
+        margin-bottom: 100px;
     }
     .stars {
-        width: 110px;
+        width: 250px;
     }
     .row {
         flex-direction: column !important;
     }
     .bottommobile {
         margin-top: 0px;
-    }
-}
-
-@media all and (max-width: 400px) {
-    .review p {
-        font-size: 45px !important;
     }
 }
