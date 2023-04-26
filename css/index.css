@@ -33,6 +33,9 @@
 .box {
     width: 400px;
 }
+.box:hover {
+    box-shadow: 3px 3px 3px 3px #7E7E7E;
+}
 
 
 @media all and (max-width: 1400px) {
